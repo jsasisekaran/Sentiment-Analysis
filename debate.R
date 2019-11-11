@@ -1,5 +1,7 @@
 library(tidyverse)
 library(tidytext)
+library(reshape2)
+library(wordcloud)
 
 #analyzing the us presidential debate 
 #words used largely by candidates
@@ -62,7 +64,7 @@ debate %>%
   ylab("frequency")
 
 
-#Apparently trump used more begative words than clinton from the above
+#Apparently trump used more negative words than clinton from the above
 
 #create a workd cloud of positive and negative words for hilary and clinton
 debate %>% 
