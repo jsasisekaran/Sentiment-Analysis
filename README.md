@@ -92,5 +92,4 @@ a <- cbind(a,s)
 View(a)
 write.csv(a,'a2.csv')
 
-The output file has additional new columns on emotions (anger, digust, fear, sadness, anticipation, joy, surprise, trust) and sentiments (negative and positive).
-
+# The output file has additional new columns on emotions (anger, digust, fear, sadness, anticipation, joy, surprise, trust) and sentiments (negative and positive). The outcome variables can be used to create a Machine Learning model for predicting sentiments.
