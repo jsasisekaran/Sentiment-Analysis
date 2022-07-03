@@ -1,6 +1,6 @@
 # Sentiment-Analysis
-The 2016 US presidential debate analyzed using Natural Language Processing
-This code was useful in doing sentiment analysis. I used R and the nrc database for sentiment analysis on twitter data in English on the topic of "Covid-19").
+
+I used this code to conduct sentiment analysis. I used R and the nrc database for sentiment analysis on twitter data in English on the topic of "Covid-19").
 
 #the tweets from this file (see code in the link below) were obtained, clearned, and hydrated for tweets posted on a given day in English using a code on Githhub. This code requires API authentication keys via Twitter. 
 #covid19_twitter/COVID_19_dataset_Tutorial.ipynb at master · thepanacealab/covid19_twitter
