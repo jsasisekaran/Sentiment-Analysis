@@ -1,8 +1,8 @@
 # Sentiment-Analysis
 The 2016 US presidential debate analyzed using Natural Language Processing
-This code was useful in doing sentiment analysis. I used R and the nrc database for sentiment analysis on twitter data in English on the topic of "Covid-19).
+This code was useful in doing sentiment analysis. I used R and the nrc database for sentiment analysis on twitter data in English on the topic of "Covid-19").
 
-#the tweets from this file were obtained, clearned, and hydrated for tweets posted on a given day in English using a code on Githhub. This code requires API authentication keys via Twitter. 
+#the tweets from this file (see code in the link below) were obtained, clearned, and hydrated for tweets posted on a given day in English using a code on Githhub. This code requires API authentication keys via Twitter. 
 #covid19_twitter/COVID_19_dataset_Tutorial.ipynb at master · thepanacealab/covid19_twitter
 
 a <- read.csv("hydrated_tweets_eng.csv", header = T)
@@ -47,7 +47,7 @@ barplot(w,
         las = 2,
         col = rainbow(50))
 
-#This creates a word cloud of frequent terms in the twitter data.
+#This creates a word cloud of frequent words in the twitter data.
 
 library(wordcloud)
 w <- sort(rowSums(tdm), decreasing = TRUE)
